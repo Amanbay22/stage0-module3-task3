@@ -16,12 +16,12 @@ class ReassigningValuesTest extends BaseIOTest {
 
     private static final String RAW_NUMBER_SOUT = "^.+(System\\.out\\.println\\D+\\d+\\D+);";
 
-//    @Test
-//    void mainTestPrintExpected() {
-//        ReassigningValues.main(null);
-//
-//        assertEquals("1\n10\n100\n15\n6\n4\n1\n10\n100\n", updateLineSpliterators(outContent.toString()));
-//    }
+    @Test
+    void mainTestPrintExpected() {
+        ReassigningValues.main(null);
+
+        assertEquals("1\n10\n100\n15\n6\n4\n1\n10\n100\n", updateLineSpliterators(outContent.toString()));
+    }
 
 
     @Test
